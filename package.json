@@ -1,0 +1,19 @@
+{
+  "name": "rsbuild-codesandbox-example",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "packageManager": "pnpm@9.5.0",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.1.0-beta.0",
+    "@rsbuild/plugin-react": "^1.0.6"
+  }
+}
